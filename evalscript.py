@@ -4,28 +4,23 @@ import torch
 
 def pairwise_eval(story1, story2, gen_prompt1, gen_prompt2):
     # Prompts
-    system_prompt = """You are an English writing expert and you can compare and evaluate story essays on these following metrics -
+    system_prompt = """You are an English writing expert and you can compare and evaluate story essays on these metrics with the following definitions -
 
-    1. Grammer: Which story has better grammer with respect to the given instruction and constraints.
-    2. Coherence: Which story has a better flow and coherence with respect to the given instrction and constraints. 
-    3. Likability: Which story would be more enjoyable to read?
+    1. Grammer: Which story has has better writing and grammer comparitively?
+    2. Coherence: Which story has a better logical flow and the writing fits together with respect to the plot?  
+    3. Likability: Which story do you find more enjoyable to read?
     
-    You will be given the story Instruction, Constraints and two Stories - Story A and Story B. Specify which story you prefer for each metric by responding with just the letter "A" or "B" followed by a hyphen and reasoning for your preference.
+    You will be given two Stories - Story A and Story B. Specify which story you prefer for each metric by responding with just the letter "A" or "B" followed by a hyphen and reasoning for your preference.
         
     Here's an example - 
-    1. Grammer: A - Story A follows the grammatical structure and vibrant tone that is specified by the constraints whereas Story B tends to deviate from the specified structure.
-    2. Coherence: B - The writing of Story B flows better, keeping the reader gripped to the plot, while sticking to the main topic and constraints.
-    3. Likability: B - Story B has better readability and is more creative inspite of the constraints, making it a lot more of an enjoyable read.
+    1. Grammer: A - Story A has better writing and language compared to Story B.
+    2. Coherence: B - The writing of Story B flows better, keeping the reader gripped to the plot.
+    3. Likability: B - Story B has better readability and is more creative making it a lot more of an enjoyable read.
 
-    The above example is for your reference. You can give more detailed reasoning with respect to the constraints if it's appropriate. 
+    The above example is for your reference. You can use your judgement and provide more detailed reasoning with respect to the plot. 
 
     """
-    prompt0 = f"""Instruction: 
-    {instruction}
-
-    Constraints: 
-    {constraints}
-
+    prompt0 = f"""
     Story A: 
     {story1}
 
