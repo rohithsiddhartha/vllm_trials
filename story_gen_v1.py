@@ -23,6 +23,8 @@ def addNewStory(df, numberOfConstraints, llm=None):
         print("Row[Category]:", row['Category'])
 
         output1 = llm.generate([row['Instruction']], sampling_params)
+        print(output1)
+        break
         final_constraints = ""
 
         for output in output1:
@@ -59,6 +61,7 @@ def addNewStory(df, numberOfConstraints, llm=None):
             final_generated_story = output.outputs[0].text
 
         # Add the data to the DataFrame
+        df.at[index, 'FinalConstraints'] = final_constraints
         df.at[index, 'Final_Prompt'] = final_prompt
         df.at[index, 'FinalGeneratedStory'] = final_generated_story
         print("Final Generated Story:", final_generated_story)
@@ -68,17 +71,26 @@ def addNewStory(df, numberOfConstraints, llm=None):
         #     break
 
 #     # Save the modified DataFrame to the same CSV file
-    df.to_csv("/home/rbheemreddy_umass_edu/vllm_trials/4096listnew.csv", index=False)
+    # df.to_csv("/home/rbheemreddy_umass_edu/vllm_trials/4096listnew.csv", index=False)
 
 # # Read the CSV file into DataFrame
 filename = "constraints.csv"
 auto_gen_eval = pd.read_csv(filename)
 
-# # Add new columns to store outputs
-# auto_gen_eval['Final_Prompt'] = ''
-# auto_gen_eval['FinalGeneratedStory'] = ''
+# for i in auto_gen_eval['Instruction']:
+#     print("Instruction:", i, "\n")
+# print(auto_gen_eval['Instruction'][8])
 
-# # Example usage
+# Add new columns to store outputs
+auto_gen_eval['FinalConstraints'] = ''
+auto_gen_eval['Final_Prompt'] = ''
+auto_gen_eval['FinalGeneratedStory'] = ''
+
+# Example usage
 llm = LLM(model=model_name, dtype=torch.float16 ) #, tensor_parallel_size=4) 
-
 addNewStory(auto_gen_eval, 3, llm)
+# list_num_constraints = [1,3,5,7,11,13,17,20]
+
+# empty_df = []
+# for num_constraints in list_num_constraints:
+#     addNewStory(auto_gen_eval, num_constraints, llm)
