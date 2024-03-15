@@ -13,6 +13,7 @@ sampling_params = SamplingParams(max_tokens=max_tokens, temperature=0.8, top_p=0
 # Create an LLM.
 
 def addNewStory(df, list_num_constraints, llm=None):
+    """Takes one instruction as input -> generates story based on the input -> proceed further with tuning the story based on the constraints selected"""
     # Initialize an empty DataFrame to store the results
     combined_df = pd.DataFrame(columns=['Instruction', 'Category', 'Constraints', 'FinalConstraints', 'Final_Prompt', 'FinalGeneratedStory'])
     
@@ -24,8 +25,6 @@ def addNewStory(df, list_num_constraints, llm=None):
             generated_story = output.outputs[0].text
 
 
-
-    
         for numberOfConstraints in list_num_constraints:
             final_constraints = ""
             # break
@@ -53,6 +52,7 @@ def addNewStory(df, list_num_constraints, llm=None):
                 'Category': row['Category'],
                 'Constraints': row['Constraints'],
                 'FinalConstraints': final_constraints,
+                'Number_of_Constraints': numberOfConstraints,
                 'Final_Prompt': final_prompt,
                 'FinalGeneratedStory': final_generated_story
             }
@@ -68,6 +68,7 @@ auto_gen_eval = pd.read_csv(filename)
 
 # Add new columns to store outputs
 auto_gen_eval['FinalConstraints'] = ''
+auto_gen_eval["Number_of_Constraints"] = ''
 auto_gen_eval['Final_Prompt'] = ''
 auto_gen_eval['FinalGeneratedStory'] = ''
 
