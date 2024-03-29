@@ -2,3 +2,4 @@ numpy
 vllm
 gpustat
 pandas
+transformers
