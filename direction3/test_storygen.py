@@ -6,9 +6,9 @@ import torch
 import re
 
 # Model Definition
-# model_name = 'mistralai/Mistral-7B-Instruct-v0.1'
+model_name = 'mistralai/Mistral-7B-Instruct-v0.1'
 # model_name = 'google/gemma-7b-it'
-model_name = 'meta-llama/Llama-2-7b-chat-hf'
+# model_name = 'meta-llama/Llama-2-7b-chat-hf'
 
 # -hf models only work as they have config.json
 # model_name = 'meta-llama/Llama-2-7b'
@@ -31,7 +31,7 @@ sampling_params = SamplingParams(max_tokens=max_tokens, temperature=0.8, top_p=0
 def addNewStory(df, list_num_constraints, llm=None):
     """Takes one instruction as input -> generates story based on the input -> proceed further with tuning the story based on the constraints selected"""
     # Initialize an empty DataFrame to store the results
-    single_instruction_df = pd.DataFrame(columns=['Instruction', 'Category', 'Constraints', 'BaseStory', 'SelectedConstraints', 'Number_of_Constraints', 'Final_Prompt', 'FinalGeneratedStory'])
+    single_instruction_df = pd.DataFrame(columns=['Instruction', 'Constraints', 'BaseStory', 'SelectedConstraints', 'Number_of_Constraints', 'Final_Prompt', 'FinalGeneratedStory'])
     
 
     prev_instruction = None  # Initialize previous instruction as None
@@ -61,7 +61,7 @@ def addNewStory(df, list_num_constraints, llm=None):
 
         single_instruction_df.loc[len(single_instruction_df)] = {
             'Instruction': row['Instruction'],
-            'Category': row['Category'],
+            # 'Category': row['Category'],
             'Constraints': row['Constraints'],
             'BaseStory': generated_story,
             'SelectedConstraints': row['SelectedConstraints'],
@@ -69,11 +69,11 @@ def addNewStory(df, list_num_constraints, llm=None):
             'Final_Prompt': final_prompt,
             'FinalGeneratedStory': final_generated_story
         }
-        
+
     return single_instruction_df
 
 # Read the CSV file into DataFrame
-filename = "direction2/direction2_selected_constraints.csv"
+filename = "direction3/direction3_selected_constraints.csv"
 auto_gen_eval = pd.read_csv(filename)
 
 # Add new columns to store outputs
@@ -84,7 +84,6 @@ auto_gen_eval['FinalGeneratedStory'] = ''
 
 # List of constraints to try
 list_num_constraints = [3, 7, 11, 15, 19]
-
 
 
 # Initialize an empty list to store all generated DataFrames
