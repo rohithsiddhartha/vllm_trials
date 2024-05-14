@@ -1,0 +1,40 @@
+Arguments Passed Namespace(folder_path='/home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/parsed', save_folder='/home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/fullrun_baseeval', system_prompt_file='/home/rbheemreddy_umass_edu/vllm_trials/code_files/system_prompt2.txt', direction='d2', api_key_file='/home/rbheemreddy_umass_edu/vllm_trials/code_files/api_key.txt', model='gpt-3.5-turbo-0125')
+['d2_olmo_basehf_d2.csv', 'd2_olmo_instruct_d2.csv', 'd2_olmo_sft_d2.csv', 'responses_gpt-3.5-turbo-0125']
+Target Files ['d2_olmo_basehf_d2.csv']
+**************************************************
+********************
+Partial Saving the file till: 19 d2_olmo_basehf_d2_partial_20.csv
+Partial Saving the file till: 39 d2_olmo_basehf_d2_partial_40.csv
+Partial Saving the file till: 59 d2_olmo_basehf_d2_partial_60.csv
+Partial Saving the file till: 79 d2_olmo_basehf_d2_partial_80.csv
+Partial Saving the file till: 99 d2_olmo_basehf_d2_partial_100.csv
+Partial Saving the file till: 119 d2_olmo_basehf_d2_partial_120.csv
+Partial Saving the file till: 139 d2_olmo_basehf_d2_partial_140.csv
+Partial Saving the file till: 159 d2_olmo_basehf_d2_partial_160.csv
+Partial Saving the file till: 179 d2_olmo_basehf_d2_partial_180.csv
+Partial Saving the file till: 199 d2_olmo_basehf_d2_partial_200.csv
+Error occurred at row 201: Error code: 400 - {'error': {'message': "Sorry! We've encountered an issue with repetitive patterns in your prompt. Please try again with a different prompt.", 'type': 'invalid_prompt', 'param': 'prompt', 'code': None}}, Prompt: Story: "  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br
+Constraints: 
+1. The story must include three main characters: a young child, an elderly person, and a rescue worker.
+2. All characters must have distinct, separate backgrounds but their paths should cross during the course of the earthquake.
+3. The earthquake must take place in a historically significant city with well-documented historical details included in the descriptions.
+4. Include at least two historically accurate landmarks that are impacted by the earthquake.
+5. The narrative must alternate perspectives among the three main characters with each segment.
+6. Introduce a family heirloom that gets lost during the earthquake and is central to the plot.
+7. The emotional impact of the earthquake on the community must be a central theme.
+8. The rescue worker must face a personal moral dilemma during the rescue operations.
+9. Incorporate the use of an antique timepiece that stops working precisely at the moment the earthquake starts.
+10. The elderly character must relay a past experience with a similar disaster, drawing parallels and contrasts.
+11. Use a non-linear timeline that includes flashbacks and flash-forwards around the event of the earthquake.
+12. The child character must discover a new fear but also find a surprising new strength.
+13. A subplot involving a missing pet that reunites the community post-disaster.
+14. The story must incorporate local folklore or myths about earthquakes.
+15. The use of sensory descriptions (sound, smell, touch) to heighten the realism of the earthquake experience.
+
+Partial Saving the file till: 219 d2_olmo_basehf_d2_partial_220.csv
+Partial Saving the file till: 239 d2_olmo_basehf_d2_partial_240.csv
+File are partially saved at path: /home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/fullrun_baseeval/edited_prompt_run_partial_saves
+Final file path: /home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/fullrun_baseeval/d2_olmo_basehf_d2_cs_output.csv
+File Processed: d2_olmo_basehf_d2.csv
+File Saved at: /home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/fullrun_baseeval/d2_olmo_basehf_d2_cs_output.csv
+**************************************************

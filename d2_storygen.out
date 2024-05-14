@@ -1,0 +1,17 @@
+Arguments Passed Namespace(folder_path='/home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/parsed', save_folder='/home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/olmoresponses_gpt3', system_prompt_file='/home/rbheemreddy_umass_edu/vllm_trials/code_files/system_prompt.txt', direction='d2', api_key_file='/home/rbheemreddy_umass_edu/vllm_trials/code_files/api_key.txt', model='gpt-3.5-turbo-0125')
+Target Files ['d2_olmo_basehf_d2.csv', 'd2_olmo_instruct_d2.csv', 'd2_olmo_sft_d2.csv']
+**************************************************
+********************
+File Processed: d2_olmo_basehf_d2.csv
+File Saved at: /home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/olmoresponses_gpt3/d2_olmo_basehf_d2_cs_output.csv
+**************************************************
+**************************************************
+********************
+File Processed: d2_olmo_instruct_d2.csv
+File Saved at: /home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/olmoresponses_gpt3/d2_olmo_instruct_d2_cs_output.csv
+**************************************************
+**************************************************
+********************
+File Processed: d2_olmo_sft_d2.csv
+File Saved at: /home/rbheemreddy_umass_edu/vllm_trials/Expansion/direction2/olmo_storygen/olmoresponses_gpt3/d2_olmo_sft_d2_cs_output.csv
+**************************************************

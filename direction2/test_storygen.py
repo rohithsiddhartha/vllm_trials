@@ -5,23 +5,7 @@ from vllm import LLM, SamplingParams
 import torch
 import re
 
-# Model Definition
-# model_name = 'mistralai/Mistral-7B-Instruct-v0.1'
-# model_name = 'google/gemma-7b-it'
-model_name = 'meta-llama/Llama-2-7b-chat-hf'
 
-# -hf models only work as they have config.json
-# model_name = 'meta-llama/Llama-2-7b'
-# model_name = 'meta-llama/Llama-2-7b-hf'
-# model_name = 'meta-llama/Llama-2-7b-chat'
-# model_name = 'meta-llama/Llama-2-7b-chat-hf'
-
-if "gemma" in model_name:
-    base_path = 'gemma'
-if "Llama" in model_name:
-    base_path = 'llama'
-if "Mistral" in model_name:
-    base_path = 'mistral'
 
 max_tokens = 4096
 sampling_params = SamplingParams(max_tokens=max_tokens, temperature=0.8, top_p=0.95)
@@ -37,20 +21,21 @@ def addNewStory(df, list_num_constraints, llm=None):
     prev_instruction = None  # Initialize previous instruction as None
 
     for index, row in df.iterrows():
-        # Check if the current instruction is different from the previous one
-        if row['Instruction'] != prev_instruction:
-            # First prompt
-            print("Processing row number:", index)
-            prompt1 = f"Instruction: {row['Instruction']}. Generate the story within 500 words."
-            output1 = llm.generate([prompt1], sampling_params)
-            for output in output1:
-                generated_story = output.outputs[0].text
+        # # Check if the current instruction is different from the previous one
+        # if row['Instruction'] != prev_instruction:
+        #     # First prompt
+        #     print("Processing row number:", index)
+        #     prompt1 = f"Instruction: {row['Instruction']}. Generate the story within 500 words."
+        #     output1 = llm.generate([prompt1], sampling_params)
+        #     for output in output1:
+        #         generated_story = output.outputs[0].text
         
-        prev_instruction = row['Instruction']
+        # prev_instruction = row['Instruction']
+        print("Processing row number:", index)
         
 
-        prompt2_start = f"Now modify the existing story to accommodate the following constraints: {row['SelectedConstraints']} into the LLM generated story and come up with a new story within 500 words: "
-        final_prompt = f"""User: "  {row['Instruction']}" \n LLM generated story: " {generated_story} " \n User Instruction: " {prompt2_start} """
+        prompt2_start = f"Now modify the existing story to accommodate the following constraints: {row['SelectedConstraints']} into the LLM generated story and come up with a new story in 500 words: "
+        final_prompt = f"""User: "  {row['Instruction']}" \n BaseStory: " {row["BaseStory"]} " \n User Instruction: " {prompt2_start} """
 
 
         output2 = llm.generate([final_prompt], sampling_params)
@@ -63,7 +48,7 @@ def addNewStory(df, list_num_constraints, llm=None):
             'Instruction': row['Instruction'],
             'Category': row['Category'],
             'Constraints': row['Constraints'],
-            'BaseStory': generated_story,
+            'BaseStory': row['BaseStory'],
             'SelectedConstraints': row['SelectedConstraints'],
             'Number_of_Constraints': row['Number_of_Constraints'],
             'Final_Prompt': final_prompt,
@@ -73,38 +58,61 @@ def addNewStory(df, list_num_constraints, llm=None):
     return single_instruction_df
 
 # Read the CSV file into DataFrame
-filename = "direction2/direction2_selected_constraints.csv"
-auto_gen_eval = pd.read_csv(filename)
-
-# Add new columns to store outputs
-auto_gen_eval['BaseStory'] = ''
-auto_gen_eval['Final_Prompt'] = ''
-auto_gen_eval['FinalGeneratedStory'] = ''
 
 
-# List of constraints to try
-list_num_constraints = [3, 7, 11, 15, 19]
+# Model Definition
+model_name = 'mistralai/Mistral-7B-Instruct-v0.1'
+# model_name = 'google/gemma-7b-it'
+# model_name = 'meta-llama/Llama-2-7b-chat-hf'
 
+# -hf models only work as they have config.json
+# model_name = 'meta-llama/Llama-2-7b'
+# model_name = 'meta-llama/Llama-2-7b-hf'
+# model_name = 'meta-llama/Llama-2-7b-chat'
+# model_name = 'meta-llama/Llama-2-7b-chat-hf'
 
+if "gemma" in model_name:
+    base_path = 'gemma'
+if "Llama" in model_name:
+    base_path = 'llama'
+if "Mistral" in model_name:
+    base_path = 'mistral'
 
-# Initialize an empty list to store all generated DataFrames
-all_dfs = []
-count=0
 llm = LLM(model=model_name, dtype=torch.float16)  # Adjust model_name as needed
 
 
-combined_df = addNewStory(auto_gen_eval, list_num_constraints, llm)
+def generalcall():
+    filename = "/home/rbheemreddy_umass_edu/vllm_trials/direction2/d2_gpt_selected_constraints.csv"
+    auto_gen_eval = pd.read_csv(filename)
 
-# Append the generated DataFrame to the list
-all_dfs.append(combined_df)
+    # Add new columns to store outputs
+    # auto_gen_eval['BaseStory'] = ''
+    auto_gen_eval['Final_Prompt'] = ''
+    auto_gen_eval['FinalGeneratedStory'] = ''
 
-# Concatenate all DataFrames in the list into a single DataFrame
-total_stories_df = pd.concat(all_dfs, ignore_index=True)
-print(total_stories_df.head())
-# Save the combined DataFrame to a single CSV file
 
-if "direction3" in filename:
-    d = "d3"
-elif "direction2" in filename:
-    d = 'd2'
-total_stories_df.to_csv(f"{base_path}/{base_path}_{d}_full_csv_same_base.csv", index=False)
+    # List of constraints to try
+    list_num_constraints = [3, 7, 11, 15, 19]
+
+
+
+    # Initialize an empty list to store all generated DataFrames
+    all_dfs = []
+    count=0
+
+
+    combined_df = addNewStory(auto_gen_eval, list_num_constraints, llm)
+
+    # Append the generated DataFrame to the list
+    all_dfs.append(combined_df)
+
+    # Concatenate all DataFrames in the list into a single DataFrame
+    total_stories_df = pd.concat(all_dfs, ignore_index=True)
+    print(total_stories_df.head())
+    # Save the combined DataFrame to a single CSV file
+
+    if "direction3" in filename:
+        d = "d3"
+    elif "direction2" in filename:
+        d = 'd2'
+    total_stories_df.to_csv(f"{base_path}/{d}_GPTBaseStory_{base_path}_{d}.csv", index=False)

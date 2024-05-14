@@ -1,0 +1,169 @@
+['.locks', 'version.txt']
+Disk usage is below 60%. No need to clear cache. Usage Percentage: 31
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 250 entries, 0 to 249
+Data columns (total 9 columns):
+ #   Column                 Non-Null Count  Dtype 
+---  ------                 --------------  ----- 
+ 0   Instruction            250 non-null    object
+ 1   Constraints            250 non-null    object
+ 2   BaseStory              250 non-null    object
+ 3   Direction              250 non-null    object
+ 4   Model                  250 non-null    object
+ 5   SelectedConstraints    250 non-null    object
+ 6   Number_of_Constraints  250 non-null    int64 
+ 7   Final_Prompt           250 non-null    object
+ 8   FinalGeneratedStory    250 non-null    object
+dtypes: int64(1), object(8)
+memory usage: 17.7+ KB
+None
+Path saving file: olmo_sft
+Model allenai/OLMo-7B-SFT DONE
+CUDA memory cleared.
+['.locks', 'models--allenai--OLMo-7B-SFT', 'version.txt']
+Disk usage is below 60%. No need to clear cache. Usage Percentage: 57
+['.locks', 'models--allenai--OLMo-7B-SFT', 'version.txt']
+Disk usage is below 60%. No need to clear cache. Usage Percentage: 57
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/.no_exist/3876543a0116c29eecaa00983f9b657f7975b456/added_tokens.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/.no_exist/3876543a0116c29eecaa00983f9b657f7975b456/generation_config.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/.no_exist/3876543a0116c29eecaa00983f9b657f7975b456/model.safetensors'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/.no_exist/3876543a0116c29eecaa00983f9b657f7975b456'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/.no_exist'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs/148acfce238941760f81b0d66228af4d711331102d7dc54af2c32deb0d07b6d4'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs/16b0291ac3f12688f1e320a228b5f73c7fb15052'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs/4256e297c30b45d23065871d9b1d97a1453463d0'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs/60115a126c30c7602a264cdb0205d427dc9aa0bb'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs/606fe6aa0ea57af91a3902b3d32bebe4744973c2'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs/d06ef09037384992a31352810f7500d69c902195'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs/ec7997b27142e6a09aa705e280bff475322f5e6102dd25dc895ef5bda92b50b9'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/blobs'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/refs/main'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/refs'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456/config.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456/model-00001-of-00002.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456/model-00002-of-00002.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456/model.safetensors.index.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456/special_tokens_map.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456/tokenizer.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456/tokenizer_config.json'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots/3876543a0116c29eecaa00983f9b657f7975b456'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct/snapshots'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-Instruct'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/.no_exist/fc02d4043f10aee6e37be17265cfa2cc907bb727/added_tokens.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/.no_exist/fc02d4043f10aee6e37be17265cfa2cc907bb727/generation_config.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/.no_exist/fc02d4043f10aee6e37be17265cfa2cc907bb727/model.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/.no_exist/fc02d4043f10aee6e37be17265cfa2cc907bb727/model.safetensors.index.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/.no_exist/fc02d4043f10aee6e37be17265cfa2cc907bb727/pytorch_model.bin'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/.no_exist/fc02d4043f10aee6e37be17265cfa2cc907bb727'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/.no_exist'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs/0fb55aed4613bb2cf56a95a29b7ae4f50a119f42'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs/16b0291ac3f12688f1e320a228b5f73c7fb15052'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs/376995798155fac68794afa5bdc16fced0e3c624dedfb4a49197b31c6ad9a0ca'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs/60115a126c30c7602a264cdb0205d427dc9aa0bb'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs/606fe6aa0ea57af91a3902b3d32bebe4744973c2'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs/d06ef09037384992a31352810f7500d69c902195'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs/e81789467d594d4f517a9cf260d155120006b612e1a68030e0ddd7666bae9cb4'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/blobs'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/refs/main'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/refs'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727/config.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727/pytorch_model-00001-of-00002.bin'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727/pytorch_model-00002-of-00002.bin'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727/pytorch_model.bin.index.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727/special_tokens_map.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727/tokenizer.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727/tokenizer_config.json'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots/fc02d4043f10aee6e37be17265cfa2cc907bb727'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT/snapshots'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-SFT'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/version.txt'
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 250 entries, 0 to 249
+Data columns (total 9 columns):
+ #   Column                 Non-Null Count  Dtype 
+---  ------                 --------------  ----- 
+ 0   Instruction            250 non-null    object
+ 1   Constraints            250 non-null    object
+ 2   BaseStory              250 non-null    object
+ 3   Direction              250 non-null    object
+ 4   Model                  250 non-null    object
+ 5   SelectedConstraints    250 non-null    object
+ 6   Number_of_Constraints  250 non-null    int64 
+ 7   Final_Prompt           250 non-null    object
+ 8   FinalGeneratedStory    250 non-null    object
+dtypes: int64(1), object(8)
+memory usage: 17.7+ KB
+None
+Path saving file: olmo_instruct
+Model allenai/OLMo-7B-Instruct DONE
+CUDA memory cleared.
+['.locks', 'models--allenai--OLMo-7B-Instruct', 'models--allenai--OLMo-7B-SFT', 'version.txt']
+Cache cleared successfully for models as usage percentage is 82
+['.locks']
+Cache cleared successfully for models as usage percentage is 82
+name of model allenai/OLMo-7B-hf
+INFO 05-08 00:17:53 llm_engine.py:100] Initializing an LLM engine (v0.4.2) with config: model='allenai/OLMo-7B-hf', speculative_config=None, tokenizer='allenai/OLMo-7B-hf', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.float16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=allenai/OLMo-7B-hf)
+INFO 05-08 00:17:54 utils.py:660] Found nccl from library /home/rbheemreddy_umass_edu/.config/vllm/nccl/cu12/libnccl.so.2.18.1
+INFO 05-08 00:17:55 selector.py:81] Cannot use FlashAttention-2 backend because the flash_attn package is not found. Please install it for better performance.
+INFO 05-08 00:17:55 selector.py:32] Using XFormers backend.
+INFO 05-08 00:17:58 weight_utils.py:199] Using model weights format ['*.safetensors']
+INFO 05-08 00:19:41 model_runner.py:175] Loading model weights took 12.8325 GB
+INFO 05-08 00:19:41 gpu_executor.py:114] # GPU blocks: 7366, # CPU blocks: 512
+INFO 05-08 00:19:43 model_runner.py:937] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 05-08 00:19:43 model_runner.py:941] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 05-08 00:19:46 model_runner.py:1017] Graph capturing finished in 3 secs.
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/.no_exist/687d934d36a05417048d0fe7482f24f389fef6aa/added_tokens.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/.no_exist/687d934d36a05417048d0fe7482f24f389fef6aa/merges.txt'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/.no_exist/687d934d36a05417048d0fe7482f24f389fef6aa/vocab.json'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/.no_exist/687d934d36a05417048d0fe7482f24f389fef6aa'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/.no_exist'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/00797e612182918e8fd07c15fc58321399cce6d8'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/21dabc8dd2144c1d63d5f10334b43d3470dd4aed'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/3e1d70c16f2640555ba8fd31d3ecd1c63425c6a2'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/548f963f12d6ab0683c8ccd378a78a95d9e64f4a'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/560e6eb9733ea96f71f0fe55fa68dbfca349098d'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/684d8162147938dcc6f594283a0e46c3744f35b2da138a595280be5c40848ffc'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/a77adffe75e73c861e384970d4cb312d93abb13ec46beee2d0df8d8a2b40a4b8'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/cf24ce9ac679bd8bea25ccab74267130d00be598c4771e2e1a9813b888ee20ce'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/d1a1039c0f59564b789c8925af9182aaf813604ae097057c0bc4093b45d533af'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/defa6d0103326e9463593f486fad55a78cb4950bcada2aebf00b726be5252ff8'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs/f6041161e0ec9bc9588c3055b6bb3f7db4093d331b6352d92e86c9736f1c885c'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/blobs'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/refs/main'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/refs'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/config.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/generation_config.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/model-00001-of-00006.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/model-00002-of-00006.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/model-00003-of-00006.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/model-00004-of-00006.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/model-00005-of-00006.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/model-00006-of-00006.safetensors'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/special_tokens_map.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/tokenizer.json'
+removed '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa/tokenizer_config.json'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots/687d934d36a05417048d0fe7482f24f389fef6aa'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf/snapshots'
+removed directory '/home/rbheemreddy_umass_edu/.cache/huggingface/hub/models--allenai--OLMo-7B-hf'
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 250 entries, 0 to 249
+Data columns (total 9 columns):
+ #   Column                 Non-Null Count  Dtype 
+---  ------                 --------------  ----- 
+ 0   Instruction            250 non-null    object
+ 1   Constraints            250 non-null    object
+ 2   BaseStory              250 non-null    object
+ 3   Direction              250 non-null    object
+ 4   Model                  250 non-null    object
+ 5   SelectedConstraints    250 non-null    object
+ 6   Number_of_Constraints  250 non-null    int64 
+ 7   Final_Prompt           250 non-null    object
+ 8   FinalGeneratedStory    250 non-null    object
+dtypes: int64(1), object(8)
+memory usage: 17.7+ KB
+None
+Path saving file: olmo_basehf
+Model allenai/OLMo-7B-hf DONE
+CUDA memory cleared.
+['.locks', 'models--allenai--OLMo-7B-hf']
+Cache cleared successfully for models as usage percentage is 82

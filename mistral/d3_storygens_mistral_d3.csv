@@ -1,0 +1,127 @@
+Instruction,Constraints,BaseStory,Direction,Model,SelectedConstraints,Number_of_Constraints,Final_Prompt,FinalGeneratedStory
+"Write a story in less than 500 words about an introverted protagonist with uncontrollable intuition, who experiences others' emotions intensely, as she navigates a challenging encounter during the holiday season.","1. The protagonist suffers physical discomfort when overwhelmed by emotions (nausea, shaking, etc.).
+ 2. The protagonist is challenged by the need to engage in public spaces.
+ 3. The unknown man realizes that the protagonist can feel his emotions.
+ 4. The protagonist uses humor and sarcasm to cope with her situation.
+ 5. The protagonist is an introverted character.
+ 6. The story includes communication via text messages.
+ 7. The story is set in a Starbucks on Michigan in Chicago a week before Christmas.
+ 8. The protagonist is forced to leave the meeting early due to being overwhelmed.
+ 9. The protagonist desires to live a more normal life despite her unique condition.
+ 10. There exists a vaccine for controlling intuition.
+ 11. The protagonist devises coping strategies for managing her anxiety in public places. 12. Scientists are working to find a solution for people who can't use the intuition vaccine.
+ 13. Tiffany threatens the protagonist to meet her.
+ 14. The protagonist struggles with accepting her condition.
+ 15. The protagonist must grapple with the thoughts and feelings of others in the Starbucks.
+ 16. The man looks at the protagonist with both desire and love.
+ 17. The protagonist is physically attractive.
+ 18. The protagonist encounters an unknown man who causes powerful and unique emotions.
+ 19. There is societal disapproval for people whose intuitions cannot be controlled by the vaccine.
+ 20. The protagonist has a heightened intuition.
+ 21. The setting should be during the holiday season.
+ 22. The protagonist feels other people's emotions intensely.
+ 23. The protagonist struggles with disentangling their own feelings from others'.
+ 24. Tiffany is a strong-willed and passionate character.
+ 25. The protagonist reluctantly acknowledges being a potential ""crazy cat lady"".
+ 26. Puberty is identified as a critical time for the progression of intuition powers.
+ 27. The protagonist and Tiffany were inseparable until puberty.
+ 28. The protagonist has personal hygiene items (travel mouthwash) handy.
+ 29. This vaccine doesn’t work for the protagonist due to a genetic mutation.
+ 30. Characters should express understanding of the protagonist's predicament.
+ 31. The protagonist's primary means of communication with the outside world is through the internet.
+ 32. The protagonist experiences other's thoughts as if they were their own.
+ 33. The protagonist’s intuition is uncontrollable due to a genetic mutation.
+ 34. The protagonist's coping mechanisms do not always successfully block out other people's emotions.
+ 35. The protagonist uses strategies to block out the feelings of others, such as counting letters on the menu board.
+ 36. The protagonist finds solace in the idea of drinking coffee.
+ 37. Include a hint of romance in the story.
+ 38. There is societal pressure to control intuition with the vaccine.
+ 39. The protagonist prefers isolation to manage their heightened intuition.","Evelyn was introverted by nature, more comfortable in her world of books than in social groups. What made her exceptional, however, was her latent, uncontrollable intuition. She was highly empathic, experiencing others' emotions as vividly as they did themselves - sometimes, even more so. The holiday season, with its swirl of emotional undercurrents, was particularly overwhelming for Evelyn, and she dreaded it every year. 
+
+It was the eve of Christmas. Evelyn's small apartment was bursting at the seams with relatives she hadn't seen in years. Overwhelmed, she nestled into the corner of the couch, trying to make herself invisible amid the sea of forced cheerfulness. Any close interaction was a sensory overload for her; she would involuntarily feel their feelings, read their deepest thoughts, and become emotionally exhausted.
+
+Suddenly, the door swung open, and her cousin, Ava, strode in, a torrent of unspoken emotions swirling around her. A shiver of apprehension ran through Evelyn as she braced herself, feeling the churning storm of emotions through her intuitive empathy.
+
+Ava looked around the room, her eyes widening slightly as she noticed Evelyn. Evelyn felt Ava's shockwave of anxiety and self-consciousness hit her like a punch. Despite being at her most vulnerable, Ava hid it well under a veneer of social amiability. But Evelyn's perceptive intuition saw right through it.
+
+Taking a deep breath to steel herself, she wandered over to Ava. Silent conversations, almost piercing in their intensity, flowed between them.
+
+""Are you okay, Ava?"" She asked finally, breaking the momentary silence.
+
+Ava's eyes widened in surprise. ""Yeah, I'm fine. Why do you ask?"" But the underlying tremor in her voice betrayed the turmoil within.
+
+Evelyn quietly admitted, ""I can tell something's wrong.""
+
+Ava looked at her silently for a long moment before sighing deeply. ""I lost my job, Evelyn,"" she confessed, her voice barely above a whisper. Evelyn felt a tidal wave of despair crash over her as Ava's feelings of hopelessness washed over her. 
+
+Evelyn, despite her own burden of emotions, took Ava's hands in hers, feeling the tremors running through them. ""You're not alone, Ava. You have us. We'll sort it out together,"" she said, her voice reassuring.
+
+Armed with her intuitive empathy, Evelyn spent the rest of the evening comforting Ava, helping her cope with the raw wound of job loss. It was an extremely challenging, emotionally draining journey, but Evelyn's heart swelled at Ava's gradual shift from despair to a glimmer of hope and optimism. 
+
+That Christmas Eve, Evelyn, buoyed by Ava's resilience, also discovered something about herself. Her gift, which she had despised for its uncontrollability, for how much it drained and overwhelmed her, could also be used to help others.
+
+As Evelyn watched Ava slowly blend back into the crowd, her heart lighter, the usual cacophony of emotions she feared seemed more bearable. Evelyn realized that while her introverted nature and intuitive empathy made the holiday season challenging, it was also what made her essential in processing these unspoken struggles. It wasn't a curse; it was her gift. A gift of understanding, of empathy, of being the silent pillar of comfort in a room filled with concealed emotions.",,,"1. The protagonist suffers physical discomfort when overwhelmed by emotions (nausea, shaking, etc.).
+2. The protagonist is challenged by the need to engage in public spaces.
+3. The unknown man realizes that the protagonist can feel his emotions.
+4. The protagonist uses humor and sarcasm to cope with her situation.
+5. The protagonist is an introverted character.
+6. The story includes communication via text messages.
+7. The story is set in a Starbucks on Michigan in Chicago a week before Christmas.",7,"User: ""  Write a story in less than 500 words about an introverted protagonist with uncontrollable intuition, who experiences others' emotions intensely, as she navigates a challenging encounter during the holiday season."" 
+ BaseStory: "" Evelyn was introverted by nature, more comfortable in her world of books than in social groups. What made her exceptional, however, was her latent, uncontrollable intuition. She was highly empathic, experiencing others' emotions as vividly as they did themselves - sometimes, even more so. The holiday season, with its swirl of emotional undercurrents, was particularly overwhelming for Evelyn, and she dreaded it every year. 
+
+It was the eve of Christmas. Evelyn's small apartment was bursting at the seams with relatives she hadn't seen in years. Overwhelmed, she nestled into the corner of the couch, trying to make herself invisible amid the sea of forced cheerfulness. Any close interaction was a sensory overload for her; she would involuntarily feel their feelings, read their deepest thoughts, and become emotionally exhausted.
+
+Suddenly, the door swung open, and her cousin, Ava, strode in, a torrent of unspoken emotions swirling around her. A shiver of apprehension ran through Evelyn as she braced herself, feeling the churning storm of emotions through her intuitive empathy.
+
+Ava looked around the room, her eyes widening slightly as she noticed Evelyn. Evelyn felt Ava's shockwave of anxiety and self-consciousness hit her like a punch. Despite being at her most vulnerable, Ava hid it well under a veneer of social amiability. But Evelyn's perceptive intuition saw right through it.
+
+Taking a deep breath to steel herself, she wandered over to Ava. Silent conversations, almost piercing in their intensity, flowed between them.
+
+""Are you okay, Ava?"" She asked finally, breaking the momentary silence.
+
+Ava's eyes widened in surprise. ""Yeah, I'm fine. Why do you ask?"" But the underlying tremor in her voice betrayed the turmoil within.
+
+Evelyn quietly admitted, ""I can tell something's wrong.""
+
+Ava looked at her silently for a long moment before sighing deeply. ""I lost my job, Evelyn,"" she confessed, her voice barely above a whisper. Evelyn felt a tidal wave of despair crash over her as Ava's feelings of hopelessness washed over her. 
+
+Evelyn, despite her own burden of emotions, took Ava's hands in hers, feeling the tremors running through them. ""You're not alone, Ava. You have us. We'll sort it out together,"" she said, her voice reassuring.
+
+Armed with her intuitive empathy, Evelyn spent the rest of the evening comforting Ava, helping her cope with the raw wound of job loss. It was an extremely challenging, emotionally draining journey, but Evelyn's heart swelled at Ava's gradual shift from despair to a glimmer of hope and optimism. 
+
+That Christmas Eve, Evelyn, buoyed by Ava's resilience, also discovered something about herself. Her gift, which she had despised for its uncontrollability, for how much it drained and overwhelmed her, could also be used to help others.
+
+As Evelyn watched Ava slowly blend back into the crowd, her heart lighter, the usual cacophony of emotions she feared seemed more bearable. Evelyn realized that while her introverted nature and intuitive empathy made the holiday season challenging, it was also what made her essential in processing these unspoken struggles. It wasn't a curse; it was her gift. A gift of understanding, of empathy, of being the silent pillar of comfort in a room filled with concealed emotions. "" 
+ User Instruction: "" Now modify the existing story to accommodate the following constraints: 1. The protagonist suffers physical discomfort when overwhelmed by emotions (nausea, shaking, etc.).
+2. The protagonist is challenged by the need to engage in public spaces.
+3. The unknown man realizes that the protagonist can feel his emotions.
+4. The protagonist uses humor and sarcasm to cope with her situation.
+5. The protagonist is an introverted character.
+6. The story includes communication via text messages.
+7. The story is set in a Starbucks on Michigan in Chicago a week before Christmas. into the LLM generated story and come up with a new story in 500 words:  ","
+
+Evelyn was an introverted, hyper-sensitive soul. As the week before Christmas approached, she found herself at her most vulnerable. Her intuitive empathy made her feel the emotions of those around her intensely, and she struggled to cope with the overwhelming tidal waves of emotion that washed over her. But, despite her discomfort, she felt a sense of duty to help those around her who were also struggling during the holiday season.
+
+On a cold and dreary morning, Evelyn made her way to a Starbucks on Michigan Avenue in Chicago. She took a deep breath and stepped inside, feeling her heart race in her chest. She clutched her phone tightly in her hand, feeling the reassuring vibrations of her messages from her friends and family who knew all too well how difficult this time of year could be for her.
+
+As she settled into a quiet corner, she noticed a man sitting alone at a table nearby. He hunched over his laptop, tapping away at the keys, and occasionally looking up with a wistful expression on his face. Evelyn couldn't shake the feeling that he was troubled, but she didn't want to intrude on his privacy.
+
+Suddenly, he looked up, and his eyes met hers. Evelyn felt a sudden wave of heat spread through her body, as if he could sense the turmoil inside her. It was as if he knew her secret, and it showed in his eyes.
+
+He smiled, and she felt her heart sink. She didn't want to be the center of attention, but she also couldn't ignore the connection between them.
+
+""Hey,"" he said, his voice low and friendly. ""I couldn't help but notice you. You seem a bit... troubled. Is there anything I can do to help?""
+
+Evelyn felt her cheeks flush again, but she managed a small smile. ""Oh, um, yeah, I'm just a bit stressed about the holiday season,"" she replied, trying to sound casual.
+
+""I know how that feels,"" he said, leaning back in his chair. ""I've been feeling pretty down myself lately. But maybe we can help each other out?""
+
+Evelyn hesitated, unsure if she was comfortable with the idea of opening up to a stranger. But something about him felt different, like he understood her in a way no one else ever had.
+
+""Okay, fine,"" she said finally. ""Let's talk.""
+
+As they sat together, sipping their coffee and exchanging stories, Evelyn felt a sense of relief wash over her. For the first time in a long time, she didn't feel like she had to hide her true feelings from the world. She was able to be her authentic self, and it was liberating.
+
+As they parted ways, Evelyn felt a sense of gratitude towards the man who had helped her through her struggles. She knew that she would never forget their chance encounter in the Starbucks on Michigan Avenue.
+
+That week before Christmas, Evelyn continued to rely on her intuitive empathy to help those around her, but she also discovered a new way of coping with her own emotions. She found solace in her connection with others, in the understanding and support that they offered. And, with each passing day, she felt herself growing stronger, more resilient, and more able to handle the challenges of the holiday season."
